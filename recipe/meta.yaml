@@ -1,4 +1,4 @@
-{% set name = "commonregex " %}
+{% set name = "commonregex" %}
 {% set version = "1.5.5" %}
 
 package:
@@ -12,7 +12,7 @@ source:
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 0
+  number: 1
 
 requirements:
   host:
