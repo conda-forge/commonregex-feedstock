@@ -18,6 +18,7 @@ requirements:
   host:
     - python {{ python_min }}
     - pip
+    - setuptools
   run:
     - python >={{ python_min }}
 
@@ -29,7 +30,6 @@ test:
   requires:
     - pip
     - python {{ python_min }}
-
 
 about:
   home: http://www.github.com/madisonmay/CommonRegex
